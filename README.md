@@ -65,11 +65,12 @@ ________________________________________________________________________________
 				     <div>:pencil2: Admin as well as customer can see the list of store credit history.</div>
 	</div>
 	<div>
+		<br/>
 		<img src="http://wiki.xmagestore.com/images/sc5.png" alt="Excellence store credit" title="store credit module"/>
 		<br/>
 		<img src="http://wiki.xmagestore.com/images/sc8.png" alt="Excellence store credit" title="store credit module"/>
 		<br/>
-		<mg src="http://wiki.xmagestore.com/images/sc17.png" alt="Excellence store credit" title="store credit module"/>
+		<img src="http://wiki.xmagestore.com/images/sc17.png" alt="Excellence store credit" title="store credit module"/>
 	</div>
 </div>
 ******************************************************************************************************
