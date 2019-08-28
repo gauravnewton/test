@@ -46,6 +46,8 @@ ________________________________________________________________________________
 	<div>:pencil2: You can change email template which will sent to customer on a particular activity of customer</div>
 </div>
 
+
+<br/>
 <img src="http://wiki.xmagestore.com/images/sc2.png" alt="Excellece Store Credit" title="store credit module">
 
 
