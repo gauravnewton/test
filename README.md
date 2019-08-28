@@ -18,25 +18,24 @@ With Magento Store Credit Extension, you can bring customers back to your store 
 8. Point value can be configured to it's equivalent currency price from configuration.
 ___________________________________________________________________________________________________
 ## How Store Credit Works
-:memo: Dependancy of module
+:memo: Dependency of module
 <div>
-   <div>:eight_pointed_black_star: Each Slider Comes With its additional Features in which its good Enough.Due to Which USer      Can able to Customize its slider According to there need </div>
 	<div>:clock1: Excellence_StoreCredit module depends on Excellence_Base module </div>
 </div>
 __________________________________________________________________________________________________
 ## Steps For Activation
 <div>
 	<div>
-	   <b>Path:</b>Login To Your Admin>Store>Configuration>Excellence>Slider Setting>Select Slider.
+	   <b>Path:</b>Login To Your Admin>Store>Configuration>Excellence>StoreCredit.
 	</div>
 	<div>
 		<b>Description: </b> <div>:pencil2: Login to Your admin Account</div>
 				     <div>:pencil2: Click on Store option on left menu bar at bottom</div>
 				     <div>:pencil2: Then Select Configuration Text</div>
 				     <div>:pencil2: A configuration page will open, then click on Excellence from left grid</div>
-				     <div>:pencil2: Then Click on Enable Awesome Slider and Select slider with desire Effects as You want to Apply</div>
+				     <div>:pencil2: Then Click on Enable StoreCredit module from drop down list</div>
 				     <div>:pencil2: Fill the desire fields then click on save button</div>
-		<div>:pencil2: Now the slider has been activated on Your desire pages with your custom Effects</div>
+		<div>:pencil2: Now the StoreCredit has been activated on your store.</div>
 	</div>
 </div>
 ******************************************************************************************************
