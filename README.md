@@ -18,15 +18,10 @@ With Magento Store Credit Extension, you can bring customers back to your store 
 8. Point value can be configured to it's equivalent currency price from configuration.
 ___________________________________________________________________________________________________
 ## How Store Credit Works
-:memo: 
+:memo: Dependancy of module
 <div>
    <div>:eight_pointed_black_star: Each Slider Comes With its additional Features in which its good Enough.Due to Which USer      Can able to Customize its slider According to there need </div>
-	<div>:clock1: User Can able to Adjust The slider speed according to there need </div>
-	<div>:heavy_check_mark: Can enable/disable Slider image loop functionality for image looping</div>
-	<div>:heavy_check_mark: Can enable/disable Fade option to get the fade_In funtionality on slider Image</div>
-	<div>:heavy_check_mark: PauseONHover Functionality for slider to stop slider when a User points its cursor on slider           Image</div>
-	<div>:heavy_check_mark: Enable Dot as a Navigation bar on slider</div>
-	<div>:heavy_check_mark: Can Able to Select number of Images to show on Slider in one slide</div>
+	<div>:clock1: Excellence_StoreCredit module depends on Excellence_Base module </div>
 </div>
 __________________________________________________________________________________________________
 ## Steps For Activation
