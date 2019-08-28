@@ -41,8 +41,9 @@ ________________________________________________________________________________
 </div>
 ******************************************************************************************************
 <div>
-	:memo: URL on Sliders
-	     <div>:pencil2: Now you can able to apply url on each image of slider available with multiple options in which you can select url for product/category/CMS page and can able to add its csutom URL also.</div>
+	:memo: Store credit configuration
+	     <div>:pencil2: You can configure the store credit assigned to customer on different activities like account creation, newsletter subscription and order placing.</div>
+	<div>:pencil2: You can change email template which will sent to customer on a particular activity of customer</div>
 </div>
 _______________________________________________________________________________________________________
 ## Steps For Activation
