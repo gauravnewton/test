@@ -15,7 +15,8 @@ With Magento Store Credit Extension, you can bring customers back to your store 
 5. With this, you Can also Refund/Add/Deduct credits to the customer's account.
 6. Customer can track credit history into their account section.
 7. Store owner can configure the email template from store credit configuration.
-8. Point value can be configured to it's equivalent currency price from configuration.
+8. StoreCredit value can be configured to it's equivalent currency price from configuration.
+9. Store owner can be or subtract store credit manually from admin panel.
 ___________________________________________________________________________________________________
 ## How Store Credit Works
 :memo: Dependency of module
