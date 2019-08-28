@@ -1,7 +1,7 @@
 # Excellence_StoreCredit V-1.0
 ## Magento 2 Extension
 
-### StoreCredit extension allow you to reward your loyal customer for purchasing on your store.
+### StoreCredit extension allow you to reward your loyal customer for purchasing from your store.
 
 With Magento Store Credit Extension, you can bring customers back to your store again and again to spend their credit wallet.
 
