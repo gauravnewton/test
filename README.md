@@ -44,6 +44,7 @@ ________________________________________________________________________________
 	:memo: Store credit configuration
 	     <div>:pencil2: You can configure the store credit assigned to customer on different activities like account creation, newsletter subscription and order placing.</div>
 	<div>:pencil2: You can change email template which will sent to customer on a particular activity of customer</div>
+	<div>:pencil2: You can even map the currency value of store credit to base cussreny of store.</div>
 </div>
 
 
@@ -54,19 +55,21 @@ ________________________________________________________________________________
 
 
 _______________________________________________________________________________________________________
-## Steps For Activation
+## Admin features
 <div>
 	<div>
-	   <b>Path:</b>Login To Your Admin>XmageStore Logo>Manage Slides>Add New Slide>Select Page For URL(dropdown Option)
 	</div>
 	<div>
-		<b>Description: </b> <div>:pencil2: Login to Your admin Account</div>
-				     <div>:pencil2: Click on XmageStore option on left menu bar</div>
-				     <div>:pencil2: Then Click on manage Slide</div>
-				     <div>:pencil2: A manage Slide page will open, then click on Add New Slide Button</div>
-				     <div>:pencil2: Then Click on Select Page For URL and Select URL for desire page</div>
-				     <div>:pencil2: Fill the desire fields then click on save button</div>
-		<div>:pencil2: Now the URL has been applied on Your slider</div>
+		<b>Description: </b> <div>:pencil2: Admin can refund the order amount as store credit in case instead of refunding offline, while refunding order.</div>
+				     <div>:pencil2: Admin can add or subtract credit from user's account.</div>
+				     <div>:pencil2: Admin as well as customer can see the list of store credit history.</div>
+	</div>
+	<div>
+		<img src="http://wiki.xmagestore.com/images/sc5.png" alt="Excellence store credit" title="store credit module"/>
+		<br/>
+		<img src="http://wiki.xmagestore.com/images/sc8.png" alt="Excellence store credit" title="store credit module"/>
+		<br/>
+		<mg src="http://wiki.xmagestore.com/images/sc17.png" alt="Excellence store credit" title="store credit module"/>
 	</div>
 </div>
 ******************************************************************************************************
