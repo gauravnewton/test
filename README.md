@@ -74,65 +74,17 @@ ________________________________________________________________________________
 	</div>
 </div>
 ******************************************************************************************************
-<div>
-	:memo: Single slider on Multiple Products/category pages
-	<div>:pencil2: Now A single Slider can able to configure on multiple Products/Category, so that a single slider will be display on multi selected Products/Categories</div>
-</div>
-_______________________________________________________________________________________________________
-## Steps For Activation
-<div>
-	<div>
-	   <b>Path:</b>Login To Your Admin>XmageStore Logo>Manage Slider pages>Add New Slider>Show Slider On(dropdown Option)
-	</div>
-	<div>
-		<b>Description: </b> <div>:pencil2: Login to Your admin Account</div>
-				     <div>:pencil2: Click on XmageStore option on left menu bar</div>
-				     <div>:pencil2: Then Click on manage Slider pages</div>
-				     <div>:pencil2: A manage Slider pages page will open, then click on Add New Slider Button</div>
-				     <div>:pencil2: Then Click on Show Slider On and Select the pages on which you want to apply for</div>
-				     <div>:pencil2: Fill the desire fields then click on save button</div>
-		<div>:pencil2: Now the slider has been applied on Your selected pages</div>
-	</div>
-</div>
-******************************************************************************************************
-<div>
-	:memo: Slider ON Custom Widget
-	<div>:pencil2: Slider will be now applied on custom Widget part If user enable its excess from admin in <b>Manage Slider Pages</b></div>
-</div>
-_______________________________________________________________________________________________________
-## Steps For Activation
-<div>
-	<div>
-	   <b>Path:</b>Login To Your Admin>Widget>Manage Slider pages>Add New Slider>Show Slider On(dropdown Option)
-	</div>
-	<div>
-		<b>Description: </b> <div>:pencil2: Login to Your admin Account</div>
-				     <div>:pencil2: Click on XmageStore option on left menu bar</div>
-				     <div>:pencil2: Then Click on manage Slider pages</div>
-				     <div>:pencil2: A manage Slider pages page will open, then click on Add New Slider Button</div>
-				     <div>:pencil2: Then Click on Show Slider On and Select the pages on which you want to apply for</div>
-				     <div>:pencil2: Fill the desire fields then click on save button</div>
-		<div>:pencil2: Now the slider has been applied on Your selected pages</div>
-	</div>
-</div>
-******************************************************************************************************
-<div>:memo: Slider image Configuration
-	<div>:pencil2: In Add slider part, a functionality has been given to stretch image on slider.</div>
-</div>
 
-### Screenshots:
-
-<img src="https://i.ibb.co/qJLNTxt/slider-Module.png" alt="Excellece Slider" title="slider module">
 
 ___________________________________________________________________________________________________
 
 ### Want to know more?
 
-## Visit <a href='https://xmagestore.com/magento2/slider-extension.html' target='_blank'>https://xmagestore.com/magento2/slider-extension.html</a>
+## Visit <a href='https://xmagestore.com/magento2/storecredit-extension.html' target='_blank'>https://xmagestore.com/magento2/storecredit-extension.html</a>
 ___________________________________________________________________________________________________
 ## Need any help with installation and setup?
 
-## Visit <a href='http://wiki.xmagestore.com/Magento2/Slider_Extension/index.html' target='_blank'>http://wiki.xmagestore.com/Magento2/Slider_Extension/index.html</a>
+## Visit <a href='http://wiki.xmagestore.com/Magento2/Store_Credit_Extension/Manage_Customer_Credit.html' target='_blank'>http://wiki.xmagestore.com/Magento2/Store_Credit_Extension/Manage_Customer_Credit.html</a>
 
 ___________________________________________________________________________________________________
 ## 
@@ -163,31 +115,5 @@ ________________________________________________________________________________
 </tbody>
 </table>
 
-## How to add on cms pages :-
-
-example :
-	<pre  style="font-family:arial;font-size:12px;border:1px dashed #CCCCCC;width:99%;height:auto;overflow:auto;background:#f0f0f0;;background-image:URL(http://2.bp.blogspot.com/_z5ltvMQPaa8/SjJXr_U2YBI/AAAAAAAAAAM/46OqEP32CJ8/s320/codebg.gif);padding:0px;color:#000000;text-align:left;line-height:20px;"><code style="color:#000000;word-wrap:normal;"> {{block class="Excellence\Slider\Block\Slider" name="customSlider" sliderId="1" template="Excellence_Slider::custom-page-slider.phtml"}}  
-</code></pre>
-
-## How to add on phtml file :-
-
-example : 
-	<pre  style="font-family:arial;font-size:12px;border:1px dashed #CCCCCC;width:99%;height:auto;overflow:auto;background:#f0f0f0;;background-image:URL(http://2.bp.blogspot.com/_z5ltvMQPaa8/SjJXr_U2YBI/AAAAAAAAAAM/46OqEP32CJ8/s320/codebg.gif);padding:0px;color:#000000;text-align:left;line-height:20px;"><code style="color:#000000;word-wrap:normal;">1:  echo $this-&gt;getLayout()  
-2:           -&gt;createBlock("Excellence\Slider\Block\Slider")  
-3:           -&gt;setSliderId('1')  
-4:           -&gt;setTemplate("Excellence_Slider::custom-page-slider.phtml")  
-5:           -&gt;toHtml();  
-</code></pre>
-
-
-## How to add using xml file :-
-
-example :
-	<pre  style="font-family:arial;font-size:12px;border:1px dashed #CCCCCC;width:99%;height:auto;overflow:auto;background:#f0f0f0;;background-image:URL(http://2.bp.blogspot.com/_z5ltvMQPaa8/SjJXr_U2YBI/AAAAAAAAAAM/46OqEP32CJ8/s320/codebg.gif);padding:0px;color:#000000;text-align:left;line-height:20px;"><code style="color:#000000;word-wrap:normal;">1:  &lt;block class="Excellence\Slider\Block\Slider" name="header.contact.block" template="Excellence_Slider::custom-page-slider.phtml" before="-"&gt;  
-2:         &lt;arguments&gt;  
-3:            &lt;argument name="sliderId" translate="true" xsi:type="string"&gt;1&lt;/argument&gt;  
-4:         &lt;/arguments&gt;  
-5:  &lt;/block&gt;  
-</code></pre>
 ___________________________________________________________________________________________________
 ### Feedback and Support <a href="mailto:support@xmagestore.com">support@xmagestore.com</a>
