@@ -1,26 +1,24 @@
-# Excellence_Slider V-2.0
+# Excellence_StoreCredit V-1.0
 ## Magento 2 Extension
 
-### Slider Extension help you setup different slides on your magento store and easily manage images.
+### StoreCredit extension allow you to reward your loyal customer for purchasing on your store.
 
+With Magento Store Credit Extension, you can bring customers back to your store again and again to spend their credit wallet.
 
 
 ## Features:
-1. Easily add sliders to your store pages
-2. Manage your images easily through admin interface
-3. Configure slider position, choose from latest slider libraries
-4. Select Slider According to there Different Effects
-5. Manage URL on Each Slider Images
-6. Configure Same Slider on Multiple Category/Products
-7. Manage Slider On custom Widget
-8. Stretch/Compress Slider Image
-9. You can add slider on any phtml file
-10. You can add slider on any cms page
-11. You can add slider through any xml file
 
+1. Store owner can enable/disable this module from store configuration
+2. Configure credit amount when customer register at your store online portal
+3. Configure credit amount when registered Customer Place order
+4. Configure credit amount when registered/new customer subscribe to your newsletter
+5. With this, you Can also Refund/Add/Deduct credits to the customer's account.
+6. Customer can track credit history into their account section.
+7. Store owner can configure the email template from store credit configuration.
+8. Point value can be configured to it's equivalent currency price from configuration.
 ___________________________________________________________________________________________________
-## How Slider Works
-:memo: Slider Effects
+## How Store Credit Works
+:memo: 
 <div>
    <div>:eight_pointed_black_star: Each Slider Comes With its additional Features in which its good Enough.Due to Which USer      Can able to Customize its slider According to there need </div>
 	<div>:clock1: User Can able to Adjust The slider speed according to there need </div>
