@@ -45,6 +45,12 @@ ________________________________________________________________________________
 	     <div>:pencil2: You can configure the store credit assigned to customer on different activities like account creation, newsletter subscription and order placing.</div>
 	<div>:pencil2: You can change email template which will sent to customer on a particular activity of customer</div>
 </div>
+
+<img src="http://wiki.xmagestore.com/images/sc2.png" alt="Excellece Store Credit" title="store credit module">
+
+
+
+
 _______________________________________________________________________________________________________
 ## Steps For Activation
 <div>
