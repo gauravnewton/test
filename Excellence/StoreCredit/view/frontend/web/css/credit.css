@@ -1,0 +1,53 @@
+.storecredit-customer-index .title{
+    margin-top:10px;
+}
+.storecredit-customer-index .Box-info.amount p{
+    float: left;
+    margin-top: 10px;
+} 
+.storecredit-customer-index .Box-info.amount .balance-amount{
+    color: #3182be;
+}
+.storecredit-customer-index .title-credit{
+    background-color: #e8e8e8;
+    padding: 14px 10px 14px 3px;
+    font-size: 14px;
+    text-transform: none;
+    color: #000;
+    margin: 0;
+}
+.storecredit-customer-index .order-products-toolbar .pager .limiter{
+    display:block !important;
+}
+.storecredit-customer-index .order-products-toolbar{
+    margin-top: 1%;
+}
+.storecredit-customer-index .title-credit strong{
+    vertical-align: top;
+}
+@media(min-width:768px){
+    .storecredit-customer-index .main-balance.container .exchange-rate-credit{
+        margin-top:1%;
+    }
+}
+.storecredit-customer-index .main-balance.container .rate-credit span{
+    color:#3182be;
+}
+
+/*cart*/
+#checkbox_checkout_cart{
+    font-size: 14px;
+    color: grey;
+}
+
+#checkbox_checkout_cart span{
+    color: #3182be;
+}
+
+#checkbox_checkout_checkout{
+    font-size: 14px;
+    color: grey;
+}
+#checkbox_checkout_checkout span{
+    color: #3182be;
+}

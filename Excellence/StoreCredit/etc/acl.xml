@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Excellence_Adminhtml::admin" title="StoreCredit">
+                <resource id="Excellence_StoreCredit::fee" title="StoreCredit" sortOrder="40">
+                    <resource id="Excellence_StoreCredit::manage" title="StoreCredit Module" sortOrder="10">
+						<resource id="Excellence_StoreCredit::save" title="Save StoreCredit" sortOrder="10" />
+                        <resource id="Excellence_StoreCredit::news_delete" title="Delete StoreCredit" sortOrder="20" />
+					</resource>
+                </resource>
+                <resource id="Excellence_Adminhtml::stores" title="StoreCredit Section">
+                    <resource id="Excellence_Adminhtml::stores_settings" title="StoreCredit Section">
+                        <resource id="Excellence_Adminhtml::config" title="StoreCredit Section">
+                            <resource id="Excellence_StoreCredit::config_fee" title="StoreCredit Section" sortOrder="50" />
+                        </resource>
+                    </resource>
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>

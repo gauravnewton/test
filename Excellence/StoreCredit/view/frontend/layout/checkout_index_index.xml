@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="Excellence_StoreCredit::css/credit.css"/>
+    </head>
+    <body>
+        <referenceBlock name="checkout.root">
+            <arguments>
+                <argument name="jsLayout" xsi:type="array">
+                    <item name="components" xsi:type="array">
+                        <item name="checkout" xsi:type="array">
+                            <item name="children" xsi:type="array">
+                                <!--Cart Side bar on checkout index -->
+                                <item name="sidebar" xsi:type="array">
+                                    <item name="children" xsi:type="array">
+                                        <item name="summary" xsi:type="array">
+                                            <item name="children" xsi:type="array">
+                                                <item name="totals" xsi:type="array">
+                                                    <item name="children" xsi:type="array">
+                                                        <item name="storecredit" xsi:type="array">
+                                                            <item name="component"  xsi:type="string">Excellence_StoreCredit/js/view/checkout/cart/totals/fee</item>
+                                                            <item name="sortOrder" xsi:type="string">20</item>
+                                                            <item name="config" xsi:type="array">
+                                                                <item name="template" xsi:type="string">Excellence_StoreCredit/checkout/cart/totals/fee</item>
+                                                             </item>
+                                                        </item>
+                                                    </item>
+                                                </item>
+                                            </item>
+                                        </item>
+                                    </item>
+                                </item>
+                                <!--End-->
+                                <item name="steps" xsi:type="array">
+                                    <item name="children" xsi:type="array">
+                                        <item name="billing-step" xsi:type="array">
+                                            <item name="children" xsi:type="array">
+                                                <item name="payment" xsi:type="array">
+                                                    <item name="children" xsi:type="array">
+                                                        <item name="beforeMethods" xsi:type="array">
+                                                            <item name="children" xsi:type="array">
+                                                                <item name="custom_credit_fields" xsi:type="array">
+                                                                    <item name="component" xsi:type="string">Excellence_StoreCredit/js/credit</item>
+                                                                        <item name="config" xsi:type="array"> 
+                                                                            <item name="template" xsi:type="string">Excellence_StoreCredit/payment</item>
+                                                                        </item>
+                                                                </item>
+                                                            </item>            
+                                                        </item>
+                                                    </item>
+                                                </item>
+                                            </item>
+                                        </item>
+                                    </item>
+                                </item>
+                            </item>
+                            
+                        </item>
+                    </item>
+                </argument>
+            </arguments>
+        </referenceBlock>
+        <referenceContainer name="root">
+            <block class="Excellence\StoreCredit\Block\Payment" name="storecredit.root" template="storecredit_root.phtml"/>
+        </referenceContainer>
+    </body>
+</page>

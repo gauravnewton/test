@@ -1,0 +1,26 @@
+<!--@subject {{var subject}} @-->
+<!--@vars {
+"var this.getUrl($store, 'admin')":"Warehouse Account URL",
+"var customer.email":"Customer Email",
+"var customer.name":"Customer Name"
+} @-->
+ 
+{{template config_path="design/email/header_template"}} <!-- pathe of template header-->
+ 
+<!-- here $myvar1 , $myvar2, $myvar3, $myvar4, $myvar5, $myvar6 are variables in which we
+                                     asssign values when we use this template for send mail-->
+ 
+<!-- you can Modify content of template according to your requirement-->
+<table>
+    <tr class="email-intro">
+        <td>
+            <p class="greeting">{{trans "Hi, "}}{{var name}}</p>
+            
+             <p>{{trans "Greetings from  %store_name. " store_name=$store.getFrontendName()}} </p>
+             <p>{{var message}}{{trans " You can check you current account balance <a href="%account_url">here</a>." account_url=$this.getUrl($store,'storecredit/customer/index/',[_nosid:1]) |raw}}
+            </p>
+        </td>
+    </tr>
+</table>
+ 
+{{template config_path="design/email/footer_template"}} <!--footer of template-->

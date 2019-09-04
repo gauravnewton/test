@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\Sales\Controller\Adminhtml\Order\Creditmemo\Save" type="\Excellence\StoreCredit\Controller\Adminhtml\Order\Creditmemo\Save" />
+    <preference for="Magento\Sales\Controller\Adminhtml\Order\CreditmemoLoader" type="\Excellence\StoreCredit\Controller\Adminhtml\Sales\Order\CreditmemoLoader" />
+    <preference for="\Magento\Sales\Model\Order\Payment" type="\Excellence\StoreCredit\Model\Sales\Order\Payment"/>
+    <preference for="\Magento\Sales\Model\Order\Pdf\Invoice" type="\Excellence\StoreCredit\Model\Pdf\Invoice"/>
+    <preference for="\Magento\Sales\Model\Order\Pdf\Creditmemo" type="\Excellence\StoreCredit\Model\Pdf\Creditmemo"/>
+    <preference for="\Magento\Sales\Block\Adminhtml\Order\Totals" type="\Excellence\StoreCredit\Block\Adminhtml\Order\Totals"/>
+</config>

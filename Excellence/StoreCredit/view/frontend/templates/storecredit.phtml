@@ -1,0 +1,54 @@
+<?php  $_gridrecords = $block->getCustomerRecord(); 
+$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+$message = $objectManager->create('\Magento\Framework\Message\ManagerInterface');
+$price = $objectManager->create('\Magento\Directory\Helper\Data');
+$priceHelper = $objectManager->create('\Magento\Framework\CurrencyInterface');
+$storeManager = $objectManager->get('\Magento\Store\Model\StoreManagerInterface'); 
+$currencyCode = $storeManager->getStore()->getCurrentCurrencyCode(); 
+$basecurrencycode = $storeManager->getStore()->getBaseCurrencyCode();
+
+$priceData = '1';
+$amt = $price->currencyConvert($priceData, $basecurrencycode, $currencyCode); 
+$balance = $block->getCreditBalance();
+
+?>
+<?php if ($_gridrecords && count($_gridrecords)): ?>
+<div class="main-balance container">
+    <p>Your Credit Balance is : 
+        <strong class="balance-amount"><?php echo $balance; ?></strong>
+    </p>
+</div>
+<div style="clear:both;"></div>
+<div class="storecredit_list_view">
+    <div class="table-wrapper orders-history">
+        <table class="data table table-order-items history" id="transaction-table">
+            <caption class="table-caption"><?php echo __('Transaction History') ?></caption>
+            <thead>
+                <tr>
+                    <th scope="col" class="col date"><?php echo __('Date') ?></th>
+                    <th scope="col" class="col time"><?php echo __('Time') ?></th>
+                    <th scope="col" class="col credit"><?php echo __('Credit/Debit') ?></th>
+                    <th scope="col" class="col reason"><?php echo __('Reason') ?></th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php  
+                foreach ($_gridrecords as $_gridrecord): ?>
+                    <tr>
+                        <td class="col date"><?php echo $_gridrecord->getDate() ?></td>
+                        <td class="col time"><?php echo $_gridrecord->getTime() ?></td>
+                        <td class="col credit"><?php echo $block->getCreditAmount($_gridrecord->getCredit()) ?></td>
+                        <td class="col reason"><?php echo $_gridrecord->getReason() ?></td>
+                    </tr>
+                <?php endforeach; ?>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div style="clear:both;"></div>
+<?php if ($block->getPagerHtml()): ?>
+    <div class="order-products-toolbar toolbar bottom"><?php echo $block->getPagerHtml();?></div>
+<?php endif ?>
+<?php else: ?>
+    <div class="message info empty"><span><?php echo __('No Credit History Found'); ?></span></div>
+<?php endif ?>

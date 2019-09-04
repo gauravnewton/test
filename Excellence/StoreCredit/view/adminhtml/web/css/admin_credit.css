@@ -1,0 +1,30 @@
+.adminhtml-system-config-edit #storecredit_points_currency #row_storecredit_points_currency_credit_points_label .value{
+    vertical-align: bottom !important;
+}
+.adminhtml-system-config-edit #storecredit_points_currency #row_storecredit_points_currency_credit_points span{
+	display:none;
+}
+.customer-index-edit .admin__table-secondary th{
+	line-height: 1.2;
+    vertical-align: middle;
+    white-space: normal;    
+    color: #303030;
+    margin: 0;
+    text-align: left;
+}
+.customer-index-edit .customer-information .customer-balance-main{
+	color: #eb5202;
+    margin-bottom: 1%;
+}
+@media(min-width: 768px){
+	.customer-index-edit .admin__table-secondary{
+		width:100%;
+
+	}
+	.customer-index-edit .admin__table-secondary .text-credit{
+		width:97%;
+	}
+	.customer-index-edit .note-custom{
+		color: #000;
+	}
+}

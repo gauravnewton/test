@@ -1,0 +1,83 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="excellence" translate="label" sortOrder="100">
+            <label>Excellence</label>
+        </tab>
+        <section id="storecredit" translate="label" sortOrder="200" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label>Store Credit</label>
+            <tab>excellence</tab>
+            <resource>Excellence_StoreCredit::storecredit_config</resource>
+            
+            <group id="advanced_setting" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>Store Credit</label>
+                <field id="module_label" translate="label" type="label" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <frontend_model>Excellence\StoreCredit\Model\Adminhtml\System\Config\ModuleVersion</frontend_model>
+                </field>
+                <field id="enable_control" translate="label" type="select" sortOrder="2" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Enable Store Credit (Yes/No)</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment></comment>
+                </field>                                
+            </group>
+            <group id="admin_storecredit_Setting" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Store Credit Configuration</label>
+                <field id="module_label" translate="label" type="label" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <frontend_model>Excellence\StoreCredit\Model\Adminhtml\System\Config\CreditHint</frontend_model>
+                </field>
+                <field id="registration_credit" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                  <label>Store Credit upon customer registration</label>
+                  <comment><![CDATA[Enter "Store Credit" points which will be awarded to customer upon registration.]]></comment>
+                  <validate>required-entry validate-not-negative-number validate-number</validate>
+                </field>
+                
+                <field id="order_place_credit" translate="label" type="text" sortOrder="2" showInDefault="1" showInWebsite="1" showInStore="1">
+                  <label>Store Credit on order placed</label>
+                  <comment><![CDATA[Enter "Store Credit" points which will be awarded to customer when order is placed by customer.]]></comment>
+                  <validate>required-entry validate-not-negative-number validate-number</validate>
+                </field>
+
+                <field id="subscribe_credit" translate="label" type="text" sortOrder="3" showInDefault="1" showInWebsite="1" showInStore="1">
+                  <label>Store Credit upon customer newsletter subscription</label>
+                  <comment><![CDATA[Enter "Store Credit" points which will be awarded to customer upon newsletter subscription.]]></comment>
+                  <validate>required-entry validate-not-negative-number validate-number</validate>
+                </field>
+
+                <field id="order_complete_credit" translate="label" type="text" sortOrder="3" showInDefault="1" showInWebsite="1" showInStore="1">
+                  <label>Store Credit upon order completion</label>
+                  <comment><![CDATA[Enter "Store Credit" points which will be awarded to customer upon order completion.]]></comment>
+                  <validate>required-entry validate-not-negative-number validate-number</validate>
+                </field>
+
+                <field id="review_approved_credit" translate="label" type="text" sortOrder="3" showInDefault="1" showInWebsite="1" showInStore="1">
+                  <label>Store Credit upon review approval</label>
+                  <comment><![CDATA[Enter "Store Credit" points which will be awarded to customer upon review approval.]]></comment>
+                  <validate>required-entry validate-not-negative-number validate-number</validate>
+                </field>               
+            </group>
+            <group id="email_settings" translate="label" type="text" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Select Email Type</label>
+                <field id="email_identity" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Email Sender</label>
+                    <source_model>Magento\Config\Model\Config\Source\Email\Identity</source_model>
+                </field>                              
+            </group>
+            <group id="points_currency" translate="label" type="text" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Store Credit to Currency Mapping</label>
+                <field id="credit_points_explain" translate="label" type="label" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <frontend_model>Excellence\StoreCredit\Model\Adminhtml\System\Config\Comment</frontend_model>
+                </field>
+                <field id="credit_points_label" translate="label" type="label" sortOrder="2" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Unit Credit Point</label>
+                </field>
+                <field id="currency" translate="label" type="text" sortOrder="3" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Equivalent Currency</label>
+                    <comment><![CDATA[Enter currency price [base currency] equivalent to unit Store Credit point.]]></comment>
+                    <validate>required-entry validate-greater-than-zero validate-number</validate>
+                </field> 
+                <field id="credit_points" translate="label" type="hidden" sortOrder="4" showInDefault="1" showInWebsite="1" showInStore="1">
+                </field>                               
+            </group>
+        </section>
+    </system>
+</config>

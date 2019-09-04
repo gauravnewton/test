@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Excellence_StoreCredit::storecredit" title="Store Credit" module="Excellence_StoreCredit" sortOrder="30" parent="Excellence_Base::base" resource="Excellence_StoreCredit::storecredit"/>
+        <add id="Excellence_StoreCredit::StoreCredit_manage" title="Store Credit Configuration" module="Excellence_StoreCredit" sortOrder="10" parent="Excellence_StoreCredit::storecredit" action="adminhtml/system_config/edit/section/storecredit" resource="Excellence_StoreCredit::manage"/>
+    </menu>
+</config>

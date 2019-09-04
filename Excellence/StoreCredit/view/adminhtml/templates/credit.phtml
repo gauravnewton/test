@@ -1,0 +1,27 @@
+<?php 
+	$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+	$customerId = $objectManager->get('Excellence\StoreCredit\Block\Adminhtml\Edit\Tab\CreditShow')->getCustomerId();
+	$balance = $objectManager->get('Excellence\StoreCredit\Block\Adminhtml\Edit\Tab\CreditShow')->getBeckendCollection($customerId);
+ ?>
+<div class="fieldset-wrapper customer-information">
+	<div class="fieldset-wrapper-title">
+	    <span class="title">Add/Remove Credit to Customer</span>
+	</div>
+	<div class="customer-balance-main"><span>Customer's Account Balance (store credit balance) :</span><span> <?php echo $balance; ?> points</span></div>
+	<div class="table container">
+		<table class="admin__table-secondary">
+			<tbody>
+				<tr>
+					<th>Add/Remove Credit(s) :</th>
+					<td><input data-form-part="customer_form" class="admin__control-text text-credit" name="customer[credit]"/ required="required"></td>
+				</tr>
+				<tr>
+					<th>Reason :</th>
+					<td><textarea data-form-part="customer_form" class="admin__control-text text-reason" rows="1" cols="100"  name="customer[reason]" required="required"></textarea></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div style="clear:both;"></div>
+	<p class="note-custom">Note: Please add amount in negative (-) to deduct points from customer's credit.</p>
+</div>

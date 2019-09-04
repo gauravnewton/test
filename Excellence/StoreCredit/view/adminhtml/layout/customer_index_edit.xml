@@ -1,0 +1,20 @@
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-2columns-left" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+	<head>
+    <css src="Excellence_StoreCredit::css/admin_credit.css"/>
+  </head>
+  <body>
+    <referenceBlock name="customer_form">
+      <block ifconfig="storecredit/advanced_setting/enable_control" class="Excellence\StoreCredit\Block\Adminhtml\Edit\Tab\Credit" name="customer_edit_tab_credit" >
+        <action method="setTabLabel">
+          <argument name="label" xsi:type="string">Add/Remove Credit</argument>
+        </action>
+      </block>
+      <block class="Excellence\StoreCredit\Block\Adminhtml\Edit\Tab\CreditShow" name="customer_edit_tab_creditshow">
+        <action method="setTabLabel">
+          <argument name="label" xsi:type="string">Store Credit</argument>
+        </action>
+      </block>
+    </referenceBlock>
+  </body>
+</page>
