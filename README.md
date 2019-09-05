@@ -43,7 +43,7 @@ ________________________________________________________________________________
 
 
 <br/>
-<img src="https://i.ibb.co/vVv66JW/rsz-1customshipping-rate-config.png" alt="Excellece CustomShippingRate" title="custom shipping rate module">
+<img src="https://i.ibb.co/Dth6BL0/rsz-customshipping-rate-config.png" alt="Excellece CustomShippingRate" title="custom shipping rate module">
 
 
 
