@@ -66,11 +66,14 @@ ________________________________________________________________________________
 		<br/>
 		<br/>
 		<br/>		
-		Frontend Checkout <br/>
+		<strong>Frontend Checkout </strong>
+		<br/>
+		<br/>
 		<img src="https://i.ibb.co/k0MHjRy/rsz-custom-rates.png" alt="Excellence store credit" title="store credit module"/>
 		<br/>
 		<br/>
 		<br/>
+		<strong>Admin checkoout</strong>
 		<img src="https://i.ibb.co/C0sW95D/rsz-custom-admin-shipping-rates.png" alt="Excellence store credit" title="store credit module"/>
 	</div>
 </div>
