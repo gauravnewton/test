@@ -73,7 +73,11 @@ ________________________________________________________________________________
 		<br/>
 		<br/>
 		<br/>
-		<strong>Admin checkoout</strong>
+		<img src="https://i.ibb.co/9hP3PQd/rsz-custom-fast.png" alt="rsz-custom-fast" border="0">
+		<br/>
+		<br/>
+		<br/>
+		<strong>Admin checkout</strong>
 		<img src="https://i.ibb.co/C0sW95D/rsz-custom-admin-shipping-rates.png" alt="Excellence store credit" title="store credit module"/>
 	</div>
 </div>
