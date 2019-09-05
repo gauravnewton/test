@@ -1,55 +1,49 @@
-# Excellence_StoreCredit V-1.0
+# Excellence_CustomShippingRate V-1.0
 ## Magento 2 Extension
 
-### StoreCredit extension allow you to reward your loyal customer for purchasing from your store.
+### CustomShippingRate extension allow you to add multiple shipping rates for your custom shipping method.
 
-With Magento Store Credit Extension, you can bring customers back to your store again and again to spend their credit wallet.
-
+Even using this module admin can override the existing shipping rate dynamically.
 
 ## Features:
 
 1. Store owner can enable/disable this module from store configuration
-2. Configure credit amount when customer register at your store online portal
-3. Configure credit amount when registered Customer Place order
-4. Configure credit amount when registered/new customer subscribe to your newsletter
-5. With this, you Can also Refund/Add/Deduct credits to the customer's account.
-6. Customer can track credit history into their account section.
-7. Store owner can configure the email template from store credit configuration.
-8. StoreCredit value can be configured to it's equivalent currency price from configuration.
-9. Store owner can be or subtract store credit manually from admin panel.
+2. Configure shipping method with multiple shipping rates.
+3. Control shipping rules for admin as well as frontend checkout.
+4. Store owner can override the configured shipping rate when chekout from admin.
 ___________________________________________________________________________________________________
 ## How Store Credit Works
-:memo: Dependency of module
-<div>
-	<div>:clock1: Excellence_StoreCredit module depends on Excellence_Base module </div>
-</div>
+
 __________________________________________________________________________________________________
 ## Steps For Activation
-<div>
+<div></div>
 	<div>
-	   <b>Path:</b>Login To Your Admin>Store>Configuration>Excellence>StoreCredit.
+	   <b>Path:</b>Login To Your Admin>Store>Configuration>Excellence>CustomShippingRate.
 	</div>
 	<div>
 		<b>Description: </b> <div>:pencil2: Login to Your admin Account</div>
 				     <div>:pencil2: Click on Store option on left menu bar at bottom</div>
 				     <div>:pencil2: Then Select Configuration Text</div>
 				     <div>:pencil2: A configuration page will open, then click on Excellence from left grid</div>
-				     <div>:pencil2: Then Click on Enable StoreCredit module from drop down list</div>
-				     <div>:pencil2: Fill the desire fields then click on save button</div>
-		<div>:pencil2: Now the StoreCredit has been activated on your store.</div>
+                     <div>:pencil2: There is a direct link to the shipping rates configuration against to Configuration text.</div>
+				     <div>:pencil2: After navigation choose Yes from drop down list  "Enabled for Admin Checkout" for admin side checkout.</div>
+				     <div>:pencil2: And choose Yes from drop down list "Enabled for frontend Checkout" for frontend checkout.</div>
+		<div>:pencil2: Now the CustomShippingrate has been activated on your store.</div>
 	</div>
 </div>
 ******************************************************************************************************
 <div>
-	:memo: Store credit configuration
-	     <div>:pencil2: You can configure the store credit assigned to customer on different activities like account creation, newsletter subscription and order placing.</div>
-	<div>:pencil2: You can change email template which will sent to customer on a particular activity of customer</div>
-	<div>:pencil2: You can even map the currency value of store credit to base cussreny of store.</div>
+	:memo: CustomShippingrate configuration
+    <div>:pencil2: You can add multiple shipping rates like high shipping rate for fast shipping and low shipping rate for normal shipping.</div>
+	<div>:pencil2: These shipping rates are available when you are checking out for an order on frontend as well as admin end (if configured)</div>
+	<div>:pencil2: When placing order from admin side you have a list of all available shipping methods along with different shipping rates configured above.</div>
+    <div>:pencil2: Even admin can override this shipping rate as per choice.</div>
 </div>
 
 
+
 <br/>
-<img src="http://wiki.xmagestore.com/images/sc2.png" alt="Excellece Store Credit" title="store credit module">
+<img src="http://wiki.xmagestore.com/images/sc2.png" alt="Excellece CustomShippingRate" title="custom shipping rate module">
 
 
 
@@ -60,17 +54,17 @@ ________________________________________________________________________________
 	<div>
 	</div>
 	<div>
-		<b>Description: </b> <div>:pencil2: Admin can refund the order amount as store credit in case instead of refunding offline, while refunding order.</div>
-				     <div>:pencil2: Admin can add or subtract credit from user's account.</div>
-				     <div>:pencil2: Admin as well as customer can see the list of store credit history.</div>
+		<b>Description: </b> <div>:pencil2: Admin can use custom shipping rates while placing order for customer.</div>
+        <div>:pencil2: Admin can override pre defined shipping rates.</div>
+        <div>:pencil2: Admin can add/remove different shipping rates from shipping method.</div>
 	</div>
 	<div>
 		<br/>
-		<img src="http://wiki.xmagestore.com/images/sc5.png" alt="Excellence store credit" title="store credit module"/>
+		<!-- <img src="http://wiki.xmagestore.com/images/sc5.png" alt="Excellence store credit" title="store credit module"/>
 		<br/>
 		<img src="http://wiki.xmagestore.com/images/sc8.png" alt="Excellence store credit" title="store credit module"/>
 		<br/>
-		<img src="http://wiki.xmagestore.com/images/sc17.png" alt="Excellence store credit" title="store credit module"/>
+		<img src="http://wiki.xmagestore.com/images/sc17.png" alt="Excellence store credit" title="store credit module"/> -->
 	</div>
 </div>
 ******************************************************************************************************
@@ -80,7 +74,7 @@ ________________________________________________________________________________
 
 ### Want to know more?
 
-## Visit <a href='https://xmagestore.com/magento2/storecredit-extension.html' target='_blank'>https://xmagestore.com/magento2/storecredit-extension.html</a>
+## Visit <a href='https://xmagestore.com/magento2/customshippingrate-extension.html' target='_blank'>https://xmagestore.com/magento2/customshippingrate-extension.html</a>
 ___________________________________________________________________________________________________
 ## Need any help with installation and setup?
 
