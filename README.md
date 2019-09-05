@@ -62,6 +62,7 @@ ________________________________________________________________________________
 		<br/>
 		<img src="https://i.ibb.co/pZ5fyNL/rsz-custom-multiple.png" alt="Excellence store credit" title="store credit module"/>
 		<br/>
+		Frontend Checkout <br/>
 		<img src="https://i.ibb.co/k0MHjRy/rsz-custom-rates.png" alt="Excellence store credit" title="store credit module"/>
 		<br/>
 		<img src="http://wiki.xmagestore.com/images/sc17.png" alt="Excellence store credit" title="store credit module"/> -->
